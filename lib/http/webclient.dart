@@ -7,6 +7,6 @@ final Client client = HttpClientWithInterceptor.build(
   interceptors: [LoggingInterceptor()],
 );
 
-const baseUrl = 'http://192.168.5.192:8080/transactions';
+const baseUrl = 'http://192.168.5.178:8080/transactions';
 
 
