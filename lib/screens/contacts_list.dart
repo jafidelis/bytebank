@@ -20,7 +20,7 @@ class _ContactsListState extends State<ContactsList> {
         title: Text('Contacts'),
       ),
       body: FutureBuilder<List<Contact>>(
-        initialData: List(),
+        initialData: [],
         future: _dao.findAll(),
         builder: (context, snapshot) {
           switch (snapshot.connectionState) {
